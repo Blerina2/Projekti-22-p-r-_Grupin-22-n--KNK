@@ -1,5 +1,6 @@
 package com.example.kinema;
 
+import com.example.kinema.db.DatabaseConection;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -18,6 +19,10 @@ public class HelloApplication extends Application {
     }
 
     public static void main(String[] args) {
-        launch();
+     //   launch();
+
+        DatabaseConection databaseConection=new DatabaseConection();
+        databaseConection.setDbConection();
+
     }
 }

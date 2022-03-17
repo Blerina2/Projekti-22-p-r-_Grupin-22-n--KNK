@@ -9,6 +9,8 @@ module com.example.kinema {
     requires org.kordamp.ikonli.javafx;
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
+    requires mysql.connector.java;
+    requires java.sql;
 
     opens com.example.kinema to javafx.fxml;
     exports com.example.kinema;
