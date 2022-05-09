@@ -1,7 +1,7 @@
 
 ### Universiteti i Prishtinës - Fakulteti i Inxhinierisë Elektrike dhe Kompjuterike
 
-##Projekti ne kuader te lendes Komunikimi Njeri Kompjuter - FIEK-UP 2021
+#Projekti ne kuader te lendes Komunikimi Njeri Kompjuter - FIEK-UP 2022
 
 Tema:Zhvilimi i Sistemit Interaktiv për menaxhimin e funksionimit te kinemas,emri i grupit:Projekti-22-p-r-_Grupin-22-n--KNK
 
