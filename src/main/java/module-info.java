@@ -1,4 +1,4 @@
-module com.example.kinema {
+module com.example.blerinakinema {
     requires javafx.controls;
     requires javafx.fxml;
     requires javafx.web;
@@ -9,7 +9,13 @@ module com.example.kinema {
     requires org.kordamp.ikonli.javafx;
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
+     requires com.almasb.fxgl.all;
+    requires java.logging;
+    requires java.sql;
+    requires java.desktop;
+    requires de.jensd.fx.glyphs.materialicons;
 
-    opens com.example.kinema to javafx.fxml;
-    exports com.example.kinema;
+    exports kinema.fiek;
+    opens kinema.fiek to javafx.fxml;
+    opens kinema.fiek.view to javafx.fxml;
 }
