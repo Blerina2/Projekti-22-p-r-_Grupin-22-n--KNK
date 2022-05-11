@@ -1,4 +1,4 @@
-package kinema.fiek.bazaDhenave.dto;
+package fiek.bazaDhenave.dto;
 
 import javafx.scene.control.Alert;
 import javafx.stage.Window;
@@ -14,7 +14,7 @@ import java.sql.SQLException;
  * query ne tablen KINO dhe KARRIGE
  * DAO := Data Access Object
  */
-public class KarrigaDAO {
+public class KarrigaDTO {
 
     private static Connection connection;
 

@@ -1,8 +1,8 @@
-package kinema.fiek.bazaDhenave.dto;
+package fiek.bazaDhenave.dto;
 
+import fiek.bazaDhenave.entity.Film;
 import javafx.scene.image.Image;
 import kinema.fiek.bazaDhenave.LidhjaBazesDhenave;
-import kinema.fiek.entity.Film;
 
 import java.io.ByteArrayInputStream;
 import java.sql.*;

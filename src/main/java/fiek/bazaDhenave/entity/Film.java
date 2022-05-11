@@ -1,4 +1,4 @@
-package kinema.fiek.entity;
+package fiek.bazaDhenave.entity;
 
 import javafx.scene.image.Image;
 
