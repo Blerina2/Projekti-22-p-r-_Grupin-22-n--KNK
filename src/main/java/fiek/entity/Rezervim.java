@@ -1,7 +1,7 @@
 package kinema.fiek.entity;
 
-import fiek.bazaDhenave.entity.Karriage;
-import fiek.bazaDhenave.entity.Kino;
+import fiek.entity.Karriage;
+import fiek.entity.Kino;
 
 public class Rezervim {
 

@@ -1,4 +1,4 @@
-package fiek.bazaDhenave.entity;
+package fiek.entity;
 
 public class Karriage {
 
