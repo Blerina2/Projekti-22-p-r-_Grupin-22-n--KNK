@@ -10,15 +10,15 @@ public class User {
     private String email;
     private String userName;
     private String password;
-    private UserRole userRole;
+    private kinema.fiek.entity.UserRole userRole;
 
-    private List<Rezervim> rezervim;
+    private List<kinema.fiek.entity.Rezervim> rezervim;
 
-    public List<Rezervim> getRezervim() {
+    public List<kinema.fiek.entity.Rezervim> getRezervim() {
         return rezervim;
     }
 
-    public void setRezervim(List<Rezervim> rezervim) {
+    public void setRezervim(List<kinema.fiek.entity.Rezervim> rezervim) {
         this.rezervim = rezervim;
     }
 
@@ -70,11 +70,11 @@ public class User {
         this.password = password;
     }
 
-    public UserRole getUserRole() {
+    public kinema.fiek.entity.UserRole getUserRole() {
         return userRole;
     }
 
-    public void setUserRole(UserRole userRole) {
+    public void setUserRole(kinema.fiek.entity.UserRole userRole) {
         this.userRole = userRole;
     }
 }
