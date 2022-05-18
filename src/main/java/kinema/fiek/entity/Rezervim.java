@@ -1,8 +1,5 @@
 package kinema.fiek.entity;
 
-import fiek.entity.Karriage;
-import fiek.entity.Kino;
-
 public class Rezervim {
 
     int userId;

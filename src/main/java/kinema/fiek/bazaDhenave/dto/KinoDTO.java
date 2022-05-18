@@ -1,6 +1,6 @@
-package fiek.bazaDhenave.dto;
+package kinema.fiek.bazaDhenave.dto;
 
-import fiek.entity.Kino;
+import kinema.fiek.entity.Kino;
 import javafx.scene.control.Alert;
 import javafx.stage.Window;
 import kinema.fiek.bazaDhenave.LidhjaBazesDhenave;

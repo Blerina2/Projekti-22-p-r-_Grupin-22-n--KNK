@@ -1,9 +1,9 @@
-package fiek.bazaDhenave.dto.UserDTO.java;
+package kinema.fiek.bazaDhenave.dto.UserDTO.java;
 
-import fiek.bazaDhenave.dto.FilmDTO;
-import fiek.bazaDhenave.dto.KinoDTO;
-import fiek.entity.Film;
-import fiek.entity.Kino;
+import kinema.fiek.bazaDhenave.dto.FilmDTO;
+import kinema.fiek.bazaDhenave.dto.KinoDTO;
+import kinema.fiek.entity.Film;
+import kinema.fiek.entity.Kino;
 import javafx.scene.control.Alert;
 import javafx.stage.Window;
 import kinema.fiek.bazaDhenave.LidhjaBazesDhenave;

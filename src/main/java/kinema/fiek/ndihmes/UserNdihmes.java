@@ -1,7 +1,7 @@
 package kinema.fiek.ndihmes;
 
-import fiek.entity.Karriage;
-import fiek.entity.Kino;
+import kinema.fiek.entity.Karriage;
+import kinema.fiek.entity.Kino;
 import kinema.fiek.entity.*;
 
 import java.util.ArrayList;

@@ -6,7 +6,7 @@ values ('Detective Chinatown 3',
         '28. Mai 2022',
         '21:00',
         '22:00',
-        load_file('C:/Users/Admin/Desktop/Kinema/src/main/resources/kinema/fiek/images/filma/Detective_Chinatown_3.jpg'),
+        load_file('C:/Users/Admin/Desktop/Kinema/src/main/resources/kinema/kinema.fiek/images/filma/Detective_Chinatown_3.jpg'),
         1);
 
 
@@ -19,7 +19,7 @@ values ('Fast & Furious 9',
         '22:00',
         '23:00',
         2,
-        load_file('C:/Users/Admin/Desktop/Kinema/src/main/resources/kinema/fiek/images/filma/Fast&Furious9.jpg'));
+        load_file('C:/Users/Admin/Desktop/Kinema/src/main/resources/kinema/kinema.fiek/images/filma/Fast&Furious9.jpg'));
 
 INSERT INTO movies(TITLE, PERSHKRIMI, TRAILER, STARTDATE, ENDATE, TIME1, TIME2, IMAGE, KINO_ID)
 values ('Godzilla vs. Kong',
@@ -29,7 +29,7 @@ values ('Godzilla vs. Kong',
         '28. Mai 2022',
         '22:00',
         '23:00',
-        load_file('C:/Users/Admin/Desktop/Kinema/src/main/resources/kinema/fiek/images/filma/Godzilla_vs._Kong.png'),
+        load_file('C:/Users/Admin/Desktop/Kinema/src/main/resources/kinema/kinema.fiek/images/filma/Godzilla_vs._Kong.png'),
         3);
 
 INSERT INTO movies(TITLE, PERSHKRIMI, TRAILER, STARTDATE, ENDATE, TIME1, TIME2, IMAGE, KINO_ID)
@@ -40,7 +40,7 @@ VALUES ('Hi, Mom ',
         '28. Mai 2022',
         '16:00',
         '17:00',
-        load_file('C:/Users/Admin/Desktop/Kinema/src/main/resources/kinema/fiek/images/filma/Hi,_Mom.jpg'),
+        load_file('C:/Users/Admin/Desktop/Kinema/src/main/resources/kinema/kinema.fiek/images/filma/Hi,_Mom.jpg'),
         4);
 
 INSERT INTO movies(TITLE, PERSHKRIMI, TRAILER, STARTDATE, ENDATE, TIME1, TIME2, IMAGE, KINO_ID)
@@ -51,7 +51,7 @@ VALUES ('Inception',
         '28. Korrik 2022',
         '23:00',
         '24:00',
-        load_file('C:/Users/Admin/Desktop/Kinema/src/main/resources/kinema/fiek/images/filma/Inception.png'),
+        load_file('C:/Users/Admin/Desktop/Kinema/src/main/resources/kinema/kinema.fiek/images/filma/Inception.png'),
         5);
 
 INSERT INTO movies(TITLE, PERSHKRIMI, TRAILER, STARTDATE, ENDATE, TIME1, TIME2, IMAGE, KINO_ID)
@@ -62,7 +62,7 @@ values ('Morbius',
         '28. Korrik 2022',
         '23:00',
         '24:00',
-        load_file('C:/Users/Admin/Desktop/Kinema/src/main/resources/kinema/fiek/images/filma/Morbius.jpg'),
+        load_file('C:/Users/Admin/Desktop/Kinema/src/main/resources/kinema/kinema.fiek/images/filma/Morbius.jpg'),
         6);
 
 INSERT INTO movies(TITLE, PERSHKRIMI, TRAILER, STARTDATE, ENDATE, TIME1, TIME2, IMAGE, KINO_ID)
@@ -73,7 +73,7 @@ values ('Nice View',
         '28. Korrik 2022',
         '23:00',
         '24:00',
-        load_file('C:/Users/Admin/Desktop/Kinema/src/main/resources/kinema/fiek/images/filma/Nice_View.jpg'),
+        load_file('C:/Users/Admin/Desktop/Kinema/src/main/resources/kinema/kinema.fiek/images/filma/Nice_View.jpg'),
         7);
 
 INSERT INTO movies(TITLE, PERSHKRIMI, TRAILER, STARTDATE, ENDATE, TIME1, TIME2, IMAGE, KINO_ID)
@@ -84,7 +84,7 @@ VALUES ('No Time to Die',
         '28. Korrik 2022',
         '23:00',
         '24:00',
-        load_file('C:/Users/Admin/Desktop/Kinema/src/main/resources/kinema/fiek/images/filma/No_Time_to_Die.jpg'),
+        load_file('C:/Users/Admin/Desktop/Kinema/src/main/resources/kinema/kinema.fiek/images/filma/No_Time_to_Die.jpg'),
         8);
 
 INSERT INTO movies(TITLE, PERSHKRIMI, TRAILER, STARTDATE, ENDATE, TIME1, TIME2, IMAGE, KINO_ID)
@@ -95,7 +95,7 @@ VALUES ('TThe Battle at Lake Changjin 3',
         '28. Korrik 2022',
         '23:00',
         '24:00',
-        load_file('C:/Users/Admin/Desktop/Kinema/src/main/resources/kinema/fiek/images/filma/The_Battle_at_Lake_Changjin.png'),
+        load_file('C:/Users/Admin/Desktop/Kinema/src/main/resources/kinema/kinema.fiek/images/filma/The_Battle_at_Lake_Changjin.png'),
         9);
 
 
@@ -107,7 +107,7 @@ VALUES ('Scream',
         '28. Korrik 2022',
         '23:00',
         '24:00',
-        load_file('C:/Users/Admin/Desktop/Kinema/src/main/resources/kinema/fiek/images/filma/Scream2022film.jpeg'),
+        load_file('C:/Users/Admin/Desktop/Kinema/src/main/resources/kinema/kinema.fiek/images/filma/Scream2022film.jpeg'),
         10);
 
 INSERT INTO movies(TITLE, PERSHKRIMI, TRAILER, STARTDATE, ENDATE, TIME1, TIME2, IMAGE, KINO_ID)
@@ -118,7 +118,7 @@ VALUES ('Shang-Chi and the Legend of the Ten Rings',
         '28. Korrik 2022',
         '20:00',
         '19:00',
-        load_file('C:/Users/Admin/Desktop/Kinema/src/main/resources/kinema/fiek/images/filma/Shang-Chi_and_the_Legend_of_the_Ten_Ring.jpeg'),
+        load_file('C:/Users/Admin/Desktop/Kinema/src/main/resources/kinema/kinema.fiek/images/filma/Shang-Chi_and_the_Legend_of_the_Ten_Ring.jpeg'),
         11);
 
 INSERT INTO movies(TITLE, PERSHKRIMI, TRAILER, STARTDATE, ENDATE, TIME1, TIME2, IMAGE, KINO_ID)
@@ -129,7 +129,7 @@ VALUES ('Sing 2',
         '28. Korrik 2022',
         '20:00',
         '19:00',
-        load_file('C:/Users/Admin/Desktop/Kinema/src/main/resources/kinema/fiek/images/filma/Sing_2.jpg'),
+        load_file('C:/Users/Admin/Desktop/Kinema/src/main/resources/kinema/kinema.fiek/images/filma/Sing_2.jpg'),
         12);
 
 INSERT INTO movies(TITLE, PERSHKRIMI, TRAILER, STARTDATE, ENDATE, TIME1, TIME2, IMAGE, KINO_ID)
@@ -140,7 +140,7 @@ VALUES ('Spider-Man: No Way Home',
         '28. Korrik 2022',
         '20:00',
         '19:00',
-        load_file('C:/Users/Admin/Desktop/Kinema/src/main/resources/kinema/fiek/images/filma/Spider-Man_No_Way_Home.jpg'),
+        load_file('C:/Users/Admin/Desktop/Kinema/src/main/resources/kinema/kinema.fiek/images/filma/Spider-Man_No_Way_Home.jpg'),
         13);
 
 
@@ -153,7 +153,7 @@ VALUES ('Star Wars: The Rise of Skywalker ',
         '28. Korrik 2022',
         '20:00',
         '19:00',
-        load_file('C:/Users/Admin/Desktop/Kinema/src/main/resources/kinema/fiek/images/filma/Star Wars.png'),
+        load_file('C:/Users/Admin/Desktop/Kinema/src/main/resources/kinema/kinema.fiek/images/filma/Star Wars.png'),
         14);
 
 
@@ -165,7 +165,7 @@ VALUES ('The Batman',
         '28. Gusht 2022',
         '23:00',
         '24:00',
-        load_file('C:/Users/Admin/Desktop/Kinema/src/main/resources/kinema/fiek/images/filma/The_Batman.jpg'),
+        load_file('C:/Users/Admin/Desktop/Kinema/src/main/resources/kinema/kinema.fiek/images/filma/The_Batman.jpg'),
         15);
 
 
@@ -177,7 +177,7 @@ VALUES ('TOO COOL TO KILL',
         '28. Gusht 2022',
         '23:00',
         '24:00',
-        load_file('C:/Users/Admin/Desktop/Kinema/src/main/resources/kinema/fiek/images/filma/Too_Cool_to_Kill.jpg'),
+        load_file('C:/Users/Admin/Desktop/Kinema/src/main/resources/kinema/kinema.fiek/images/filma/Too_Cool_to_Kill.jpg'),
         16);
 
 insert into movies(TITLE, PERSHKRIMI, TRAILER, STARTDATE, ENDATE, TIME1, TIME2, IMAGE, KINO_ID)
@@ -188,7 +188,7 @@ VALUES ('Transformers: The Last Knight',
         '28. Tetor 2022',
         '23:00',
         '24:00',
-        load_file('C:/Users/Admin/Desktop/Kinema/src/main/resources/kinema/fiek/images/filma/Transformers.png'),
+        load_file('C:/Users/Admin/Desktop/Kinema/src/main/resources/kinema/kinema.fiek/images/filma/Transformers.png'),
         17);
 
 insert into movies(TITLE, PERSHKRIMI, TRAILER, STARTDATE, ENDATE, TIME1, TIME2, IMAGE, KINO_ID)
@@ -199,7 +199,7 @@ VALUES ('Uncharted ',
         '28. Tetor 2022',
         '23:00',
         '24:00',
-        load_file('C:/Users/Admin/Desktop/Kinema/src/main/resources/kinema/fiek/images/filma/Uncharted.jpg'),
+        load_file('C:/Users/Admin/Desktop/Kinema/src/main/resources/kinema/kinema.fiek/images/filma/Uncharted.jpg'),
         18);
 
 
@@ -211,7 +211,7 @@ VALUES ('VENOM: LET THERE BE CARNAGE',
         '28. Tetor 2022',
         '23:00',
         '24:00',
-        load_file('C:/Users/Admin/Desktop/Kinema/src/main/resources/kinema/fiek/images/filma/Venom_Let_There_Be_Carnage.jpg'),
+        load_file('C:/Users/Admin/Desktop/Kinema/src/main/resources/kinema/kinema.fiek/images/filma/Venom_Let_There_Be_Carnage.jpg'),
         19);
 
 insert into movies(TITLE, PERSHKRIMI, TRAILER, STARTDATE, ENDATE, TIME1, TIME2, IMAGE, KINO_ID)
@@ -220,5 +220,5 @@ values ('BTS', 'Coldplay X BTS - My Universe', 'https://www.youtube.com/watch?v=
         '06. Mai 2022',
         '23:00',
         '23:00',
-        load_file('C:/Users/Admin/Desktop/Kinema/src/main/resources/kinema/fiek/images/filma/Coldplay X BTS - My Universe.jpg'),
+        load_file('C:/Users/Admin/Desktop/Kinema/src/main/resources/kinema/kinema.fiek/images/filma/Coldplay X BTS - My Universe.jpg'),
         20);

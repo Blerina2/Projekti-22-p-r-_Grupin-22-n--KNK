@@ -1,4 +1,4 @@
-package fiek.entity;
+package kinema.fiek.entity;
 
 public class ColorSeat {
 
