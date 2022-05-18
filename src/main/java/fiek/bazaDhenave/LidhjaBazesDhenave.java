@@ -1,4 +1,4 @@
-package fiek;
+package fiek.bazaDhenave;
 
 
 import java.sql.Connection;

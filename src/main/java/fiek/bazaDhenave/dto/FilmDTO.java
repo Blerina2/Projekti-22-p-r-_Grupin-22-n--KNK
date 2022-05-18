@@ -1,6 +1,6 @@
 package fiek.bazaDhenave.dto;
 
-import fiek.LidhjaBazesDhenave;
+import fiek.bazaDhenave.LidhjaBazesDhenave;
 import fiek.entity.Film;
 import javafx.scene.image.Image;
 import kinema.fiek.bazaDhenave.LidhjaBazesDhenave;
