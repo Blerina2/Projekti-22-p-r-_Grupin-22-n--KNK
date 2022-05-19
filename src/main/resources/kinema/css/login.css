@@ -1,0 +1,10 @@
+#borderPaneLogin {
+    -fx-background-image: url('../images/matrix-wallpaper-login-view.jpg');
+    -fx-background-size: 100% 100%;
+    -fx-font-size: 16px;
+}
+
+
+#regjistrohuText{
+    -fx-font-size: 10px;
+}
