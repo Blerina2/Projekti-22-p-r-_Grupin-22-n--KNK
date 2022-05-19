@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.materialicons.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import java.net.URL?>
+<AnchorPane fx:id="anchorPaneBookingId" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+            minWidth="-Infinity" prefHeight="600.0"
+            prefWidth="1200.0" xmlns="http://javafx.com/javafx/8.0.141"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="kinema.fiek.ReservoController">
+    <stylesheets>
+        <URL value="@../css/booking.css"/>
+    </stylesheets>
+    <children>
+        <AnchorPane layoutX="-1.0" layoutY="31.0" prefHeight="370.0" prefWidth="1200.0">
+            <children>
+                <Label styleClass="informiUlse" fx:id="bookedSeatsLabel" layoutX="350.0" layoutY="450.0"
+                       text=""/>
+                <Label styleClass="informiUlse" fx:id="availableSeatsLabel" layoutX="540.0" layoutY="450.0"
+                       text=""/>
+                <Label styleClass="informiUlse" fx:id="totalSeatsLabel" layoutX="760" layoutY="450.0"
+                       text=""/>
+                <AnchorPane layoutX="195.0" layoutY="48.0" prefHeight="370.0" prefWidth="800.0">
+                    <children>
+                        <GridPane fx:id="gridSeats" style="-fx-spacing: 20" layoutX="100.0" AnchorPane.topAnchor="100"
+                                  prefHeight="270.0"
+                                  prefWidth="680.0">
+                            <children>
+                                <MaterialIconView fx:id="A1"
+                                                  style="-fx-fill:green; -fx-font-family: 'Material Icons'; -fx-font-size: 50.0;"
+                                                  glyphName="EVENT_SEAT"
+                                                  onMouseClicked="#selectSeat"
+                                                  wrappingWidth="40" GridPane.columnIndex="0"
+                                                  GridPane.rowIndex="0"/>
+                                <MaterialIconView fx:id="A2"
+                                                  style="-fx-fill:green; -fx-font-family: 'Material Icons'; -fx-font-size: 50.0;"
+                                                  glyphName="EVENT_SEAT"
+                                                  onMouseClicked="#selectSeat"
+                                                  GridPane.columnIndex="1" GridPane.rowIndex="0"/>
+                                <MaterialIconView
+                                        style="-fx-fill:green; -fx-font-family: 'Material Icons'; -fx-font-size: 50.0;"
+                                        fx:id="A3" glyphName="EVENT_SEAT"
+                                        onMouseClicked="#selectSeat"
+                                        GridPane.columnIndex="2" GridPane.rowIndex="0"/>
+                                <MaterialIconView
+                                        style="-fx-fill:green; -fx-font-family: 'Material Icons'; -fx-font-size: 50.0;"
+                                        fx:id="A4" glyphName="EVENT_SEAT"
+                                        onMouseClicked="#selectSeat"
+                                        GridPane.columnIndex="3" GridPane.rowIndex="0"/>
+                                <MaterialIconView
+                                        style="-fx-fill:green; -fx-font-family: 'Material Icons'; -fx-font-size: 50.0;"
+                                        fx:id="A5" glyphName="EVENT_SEAT"
+                                        onMouseClicked="#selectSeat"
+                                        GridPane.columnIndex="4" GridPane.rowIndex="0"/>
+                                <MaterialIconView
+                                        style="-fx-fill:green; -fx-font-family: 'Material Icons'; -fx-font-size: 50.0;"
+                                        fx:id="A6" glyphName="EVENT_SEAT"
+                                        onMouseClicked="#selectSeat"
+                                        GridPane.columnIndex="5" GridPane.rowIndex="0"/>
+                                <MaterialIconView
+                                        style="-fx-fill:green; -fx-font-family: 'Material Icons'; -fx-font-size: 50.0;"
+                                        fx:id="A7" glyphName="EVENT_SEAT"
+                                        onMouseClicked="#selectSeat"
+                                        GridPane.columnIndex="6" GridPane.rowIndex="0"/>
+                                <MaterialIconView
+                                        style="-fx-fill:green; -fx-font-family: 'Material Icons'; -fx-font-size: 50.0;"
+                                        fx:id="A8" glyphName="EVENT_SEAT"
+                                        onMouseClicked="#selectSeat"
+                                        GridPane.columnIndex="7" GridPane.rowIndex="0"/>
+
+                                <MaterialIconView
+                                        style="-fx-fill:green; -fx-font-family: 'Material Icons'; -fx-font-size: 50.0;"
+                                        fx:id="A9" glyphName="EVENT_SEAT"
+                                        onMouseClicked="#selectSeat"
+                                        GridPane.columnIndex="8" GridPane.rowIndex="0"/>
+                                <MaterialIconView
+                                        style="-fx-fill:green; -fx-font-family: 'Material Icons'; -fx-font-size: 50.0;"
+                                        fx:id="A10" glyphName="EVENT_SEAT"
+                                        onMouseClicked="#selectSeat"
+                                        GridPane.columnIndex="9" GridPane.rowIndex="0"/>
+                                <MaterialIconView
+                                        style="-fx-fill:green; -fx-font-family: 'Material Icons'; -fx-font-size: 50.0;"
+                                        fx:id="A11" glyphName="EVENT_SEAT"
+                                        onMouseClicked="#selectSeat"
+                                        GridPane.columnIndex="10" GridPane.rowIndex="0"/>
+                                <MaterialIconView
+                                        style="-fx-fill:green; -fx-font-family: 'Material Icons'; -fx-font-size: 50.0;"
+                                        fx:id="A12" glyphName="EVENT_SEAT"
+                                        onMouseClicked="#selectSeat"
+                                        GridPane.columnIndex="11" GridPane.rowIndex="0"/>
+                                <MaterialIconView
+                                        style="-fx-fill:green; -fx-font-family: 'Material Icons'; -fx-font-size: 50.0;"
+                                        fx:id="A13" glyphName="EVENT_SEAT"
+                                        onMouseClicked="#selectSeat"
+                                        GridPane.columnIndex="12" GridPane.rowIndex="0"/>
+
+                                <MaterialIconView
+                                        style="-fx-fill:green; -fx-font-family: 'Material Icons'; -fx-font-size: 50.0;"
+                                        fx:id="B2" glyphName="EVENT_SEAT"
+                                        onMouseClicked="#selectSeat"
+                                        GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+                                <MaterialIconView
+                                        style="-fx-fill:green; -fx-font-family: 'Material Icons'; -fx-font-size: 50.0;"
+                                        fx:id="B3" glyphName="EVENT_SEAT"
+                                        onMouseClicked="#selectSeat"
+                                        GridPane.columnIndex="2" GridPane.rowIndex="1"/>
+                                <MaterialIconView
+                                        style="-fx-fill:green; -fx-font-family: 'Material Icons'; -fx-font-size: 50.0;"
+                                        fx:id="B4" glyphName="EVENT_SEAT"
+                                        onMouseClicked="#selectSeat"
+                                        GridPane.columnIndex="3" GridPane.rowIndex="1"/>
+                                <MaterialIconView
+                                        style="-fx-fill:green; -fx-font-family: 'Material Icons'; -fx-font-size: 50.0;"
+                                        fx:id="B5" glyphName="EVENT_SEAT"
+                                        onMouseClicked="#selectSeat"
+                                        GridPane.columnIndex="4" GridPane.rowIndex="1"/>
+                                <MaterialIconView
+                                        style="-fx-fill:green; -fx-font-family: 'Material Icons'; -fx-font-size: 50.0;"
+                                        fx:id="B6" glyphName="EVENT_SEAT"
+                                        onMouseClicked="#selectSeat"
+                                        GridPane.columnIndex="5" GridPane.rowIndex="1"/>
+                                <MaterialIconView
+                                        style="-fx-fill:green; -fx-font-family: 'Material Icons'; -fx-font-size: 50.0;"
+                                        fx:id="B7" glyphName="EVENT_SEAT"
+                                        onMouseClicked="#selectSeat"
+                                        GridPane.columnIndex="6" GridPane.rowIndex="1"/>
+                                <MaterialIconView
+                                        style="-fx-fill:green; -fx-font-family: 'Material Icons'; -fx-font-size: 50.0;"
+                                        fx:id="B8" glyphName="EVENT_SEAT"
+                                        onMouseClicked="#selectSeat"
+                                        GridPane.columnIndex="7" GridPane.rowIndex="1"/>
+                                <MaterialIconView
+                                        style="-fx-fill:green; -fx-font-family: 'Material Icons'; -fx-font-size: 50.0;"
+                                        fx:id="B9" glyphName="EVENT_SEAT"
+                                        onMouseClicked="#selectSeat"
+                                        GridPane.columnIndex="8" GridPane.rowIndex="1"/>
+                                <MaterialIconView
+                                        style="-fx-fill:green; -fx-font-family: 'Material Icons'; -fx-font-size: 50.0;"
+                                        fx:id="B10" glyphName="EVENT_SEAT"
+                                        onMouseClicked="#selectSeat"
+                                        GridPane.columnIndex="9" GridPane.rowIndex="1"/>
+                                <MaterialIconView
+                                        style="-fx-fill:green; -fx-font-family: 'Material Icons'; -fx-font-size: 50.0;"
+                                        fx:id="B11" glyphName="EVENT_SEAT"
+                                        onMouseClicked="#selectSeat"
+                                        GridPane.columnIndex="10" GridPane.rowIndex="1"/>
+                                <MaterialIconView
+                                        style="-fx-fill:green; -fx-font-family: 'Material Icons'; -fx-font-size: 50.0;"
+                                        fx:id="B12" glyphName="EVENT_SEAT"
+                                        onMouseClicked="#selectSeat"
+                                        GridPane.columnIndex="11" GridPane.rowIndex="1"/>
+
+
+
+                                <MaterialIconView
+                                        style="-fx-fill:green; -fx-font-family: 'Material Icons'; -fx-font-size: 50.0;"
+                                        fx:id="C3" glyphName="EVENT_SEAT"
+                                        onMouseClicked="#selectSeat"
+                                        GridPane.columnIndex="2" GridPane.rowIndex="2"/>
+                                <MaterialIconView
+                                        style="-fx-fill:green; -fx-font-family: 'Material Icons'; -fx-font-size: 50.0;"
+                                        fx:id="C4" glyphName="EVENT_SEAT"
+                                        onMouseClicked="#selectSeat"
+                                        GridPane.columnIndex="3" GridPane.rowIndex="2"/>
+                                <MaterialIconView
+                                        style="-fx-fill:green; -fx-font-family: 'Material Icons'; -fx-font-size: 50.0;"
+                                        fx:id="C5" glyphName="EVENT_SEAT"
+                                        onMouseClicked="#selectSeat"
+                                        GridPane.columnIndex="4" GridPane.rowIndex="2"/>
+                                <MaterialIconView
+                                        style="-fx-fill:green; -fx-font-family: 'Material Icons'; -fx-font-size: 50.0;"
+                                        fx:id="C6" glyphName="EVENT_SEAT"
+                                        onMouseClicked="#selectSeat"
+                                        GridPane.columnIndex="5" GridPane.rowIndex="2"/>
+                                <MaterialIconView
+                                        style="-fx-fill:green; -fx-font-family: 'Material Icons'; -fx-font-size: 50.0;"
+                                        fx:id="C7" glyphName="EVENT_SEAT"
+                                        onMouseClicked="#selectSeat"
+                                        GridPane.columnIndex="6" GridPane.rowIndex="2"/>
+                                <MaterialIconView
+                                        style="-fx-fill:green; -fx-font-family: 'Material Icons'; -fx-font-size: 50.0;"
+                                        fx:id="C8" glyphName="EVENT_SEAT"
+                                        onMouseClicked="#selectSeat"
+                                        GridPane.columnIndex="7" GridPane.rowIndex="2"/>
+                                <MaterialIconView
+                                        style="-fx-fill:green; -fx-font-family: 'Material Icons'; -fx-font-size: 50.0;"
+                                        fx:id="C9" glyphName="EVENT_SEAT"
+                                        onMouseClicked="#selectSeat"
+                                        GridPane.columnIndex="8" GridPane.rowIndex="2"/>
+                                <MaterialIconView
+                                        style="-fx-fill:green; -fx-font-family: 'Material Icons'; -fx-font-size: 50.0;"
+                                        fx:id="C10" glyphName="EVENT_SEAT"
+                                        onMouseClicked="#selectSeat"
+                                        GridPane.columnIndex="9" GridPane.rowIndex="2"/>
+                                <MaterialIconView
+                                        style="-fx-fill:green; -fx-font-family: 'Material Icons'; -fx-font-size: 50.0;"
+                                        fx:id="C11" glyphName="EVENT_SEAT"
+                                        onMouseClicked="#selectSeat"
+                                        GridPane.columnIndex="10" GridPane.rowIndex="2"/>
+
+                                <MaterialIconView
+                                        style="-fx-fill:green; -fx-font-family: 'Material Icons'; -fx-font-size: 50.0;"
+                                        fx:id="D4" glyphName="EVENT_SEAT"
+                                        onMouseClicked="#selectSeat"
+                                        GridPane.columnIndex="3" GridPane.rowIndex="3"/>
+                                <MaterialIconView
+                                        style="-fx-fill:green; -fx-font-family: 'Material Icons'; -fx-font-size: 50.0;"
+                                        fx:id="D5" glyphName="EVENT_SEAT"
+                                        onMouseClicked="#selectSeat"
+                                        GridPane.columnIndex="4" GridPane.rowIndex="3"/>
+                                <MaterialIconView
+                                        style="-fx-fill:green; -fx-font-family: 'Material Icons'; -fx-font-size: 50.0;"
+                                        fx:id="D6" glyphName="EVENT_SEAT"
+                                        onMouseClicked="#selectSeat"
+                                        GridPane.columnIndex="5" GridPane.rowIndex="3"/>
+                                <MaterialIconView
+                                        style="-fx-fill:green; -fx-font-family: 'Material Icons'; -fx-font-size: 50.0;"
+                                        fx:id="D7" glyphName="EVENT_SEAT"
+                                        onMouseClicked="#selectSeat"
+                                        GridPane.columnIndex="6" GridPane.rowIndex="3"/>
+                                <MaterialIconView
+                                        style="-fx-fill:green; -fx-font-family: 'Material Icons'; -fx-font-size: 50.0;"
+                                        fx:id="D8" glyphName="EVENT_SEAT"
+                                        onMouseClicked="#selectSeat"
+                                        GridPane.columnIndex="7" GridPane.rowIndex="3"/>
+                                <MaterialIconView
+                                        style="-fx-fill:green; -fx-font-family: 'Material Icons'; -fx-font-size: 50.0;"
+                                        fx:id="D9" glyphName="EVENT_SEAT"
+                                        onMouseClicked="#selectSeat"
+                                        GridPane.columnIndex="8" GridPane.rowIndex="3"/>
+                                <MaterialIconView
+                                        style="-fx-fill:green; -fx-font-family: 'Material Icons'; -fx-font-size: 50.0;"
+                                        fx:id="D10" glyphName="EVENT_SEAT"
+                                        onMouseClicked="#selectSeat"
+                                        GridPane.columnIndex="9" GridPane.rowIndex="3"/>
+
+                                <MaterialIconView
+                                        style="-fx-fill:green; -fx-font-family: 'Material Icons'; -fx-font-size: 50.0;"
+                                        fx:id="E5" glyphName="EVENT_SEAT"
+                                        onMouseClicked="#selectSeat"
+                                        wrappingWidth="40" GridPane.columnIndex="4"
+                                        GridPane.rowIndex="4"/>
+                                <MaterialIconView
+                                        style="-fx-fill:green; -fx-font-family: 'Material Icons'; -fx-font-size: 50.0;"
+                                        fx:id="E6" glyphName="EVENT_SEAT"
+                                        onMouseClicked="#selectSeat"
+                                        wrappingWidth="40" GridPane.columnIndex="5"
+                                        GridPane.rowIndex="4"/>
+                                <MaterialIconView
+                                        style="-fx-fill:green; -fx-font-family: 'Material Icons'; -fx-font-size: 50.0;"
+                                        fx:id="E7" glyphName="EVENT_SEAT"
+                                        onMouseClicked="#selectSeat"
+                                        wrappingWidth="40" GridPane.columnIndex="6"
+                                        GridPane.rowIndex="4"/>
+                                <MaterialIconView
+                                        style="-fx-fill:green; -fx-font-family: 'Material Icons'; -fx-font-size: 50.0;"
+                                        fx:id="E8" glyphName="EVENT_SEAT"
+                                        onMouseClicked="#selectSeat"
+                                        wrappingWidth="40" GridPane.columnIndex="7"
+                                        GridPane.rowIndex="4"/>
+                                <MaterialIconView
+                                        style="-fx-fill:green; -fx-font-family: 'Material Icons'; -fx-font-size: 50.0;"
+                                        fx:id="E9" glyphName="EVENT_SEAT"
+                                        onMouseClicked="#selectSeat"
+                                        wrappingWidth="40" GridPane.columnIndex="8"
+                                        GridPane.rowIndex="4"/>
+
+
+                            </children>
+                            <cursor>
+                                <Cursor fx:constant="HAND"/>
+                            </cursor>
+                        </GridPane>
+                        <Text fill="white" styleClass="shkronja" layoutX="36.0" layoutY="126.0" strokeType="OUTSIDE"
+                              strokeWidth="0.0" text="A"/>
+                        <Text fill="white" styleClass="shkronja" layoutX="36.0" layoutY="181.0" strokeType="OUTSIDE"
+                              strokeWidth="0.0" text="B"/>
+                        <Text fill="white" styleClass="shkronja" layoutX="36.0" layoutY="230.0" strokeType="OUTSIDE"
+                              strokeWidth="0.0" text="C"/>
+                        <Text fill="white" styleClass="shkronja" layoutX="36.0" layoutY="278.0" strokeType="OUTSIDE"
+                              strokeWidth="0.0" text="D"/>
+                        <Text fill="white" styleClass="shkronja" layoutX="36.0" layoutY="328.0" strokeType="OUTSIDE"
+                              strokeWidth="0.0" text="E"/>
+
+                        <Text fill="white" styleClass="shkronja" layoutX="800.0" layoutY="126.0" strokeType="OUTSIDE"
+                              strokeWidth="0.0" text="A"/>
+                        <Text fill="white" styleClass="shkronja" layoutX="800.0" layoutY="181.0" strokeType="OUTSIDE"
+                              strokeWidth="0.0" text="B"/>
+                        <Text fill="white" styleClass="shkronja" layoutX="800.0" layoutY="230.0" strokeType="OUTSIDE"
+                              strokeWidth="0.0" text="C"/>
+                        <Text fill="white" styleClass="shkronja" layoutX="800.0" layoutY="278.0" strokeType="OUTSIDE"
+                              strokeWidth="0.0" text="D"/>
+                        <Text fill="white" styleClass="shkronja" layoutX="800.0" layoutY="328.0" strokeType="OUTSIDE"
+                              strokeWidth="0.0" text="E"/>
+
+
+                        <MaterialIconView fill="#06800a" styleClass="button" glyphName="EVENT_SEAT" layoutX="346.0"
+                                          AnchorPane.topAnchor="15" size="50"
+                                          text=""/>
+                        <Label layoutX="342.0" AnchorPane.topAnchor="62.0" style="-fx-text-fill: white;fx-spacing: 10"
+                               text="Dispozicion">
+                            <font>
+                                <Font size="10.0"/>
+                            </font>
+                        </Label>
+                        <MaterialIconView fill="RED" styleClass="button" glyphName="EVENT_SEAT" layoutX="402.0"
+                                          AnchorPane.topAnchor="15"
+                                          size="50"
+                                          text=""/>
+                        <Label layoutX="404.0" AnchorPane.topAnchor="62.0" style="-fx-text-fill: white;fx-spacing: 10"
+                               text="Rezervuar">
+                            <font>
+                                <Font size="10.0"/>
+                            </font>
+                        </Label>
+                        <MaterialIconView fill="#FFFF00" styleClass="button" glyphName="EVENT_SEAT" layoutX="457.0"
+                                          AnchorPane.topAnchor="15" size="50"
+                                          text=""/>
+                        <Label layoutX="460.0" layoutY="62.0" style="-fx-text-fill: white;-fx-spacing: 10"
+                               text="Zgjedhur">
+                            <font>
+                                <Font size="10.0"/>
+                            </font>
+                        </Label>
+
+
+                    </children>
+                </AnchorPane>
+
+
+                <Text fill="white" styleClass="shkronja" layoutX="313.0" layoutY="430.0" strokeType="OUTSIDE"
+                      strokeWidth="0.0" text="1"/>
+                <Text fill="white" styleClass="shkronja" layoutX="361.0" layoutY="430.0" strokeType="OUTSIDE"
+                      strokeWidth="0.0" text="2"/>
+                <Text fill="white" styleClass="shkronja" layoutX="409.0" layoutY="430.0" strokeType="OUTSIDE"
+                      strokeWidth="0.0" text="3"/>
+                <Text fill="white" styleClass="shkronja" layoutX="459.0" layoutY="430.0" strokeType="OUTSIDE"
+                      strokeWidth="0.0" text="4"/>
+                <Text fill="white" styleClass="shkronja" layoutX="505.0" layoutY="430.0" strokeType="OUTSIDE"
+                      strokeWidth="0.0" text="5"/>
+                <Text fill="white" styleClass="shkronja" layoutX="557.0" layoutY="430.0" strokeType="OUTSIDE"
+                      strokeWidth="0.0" text="6"/>
+                <Text fill="white" styleClass="shkronja" layoutX="608.0" layoutY="430.0" strokeType="OUTSIDE"
+                      strokeWidth="0.0" text="7"/>
+                <Text fill="white" styleClass="shkronja" layoutX="666" layoutY="430.0" strokeType="OUTSIDE"
+                      strokeWidth="0.0" text="8"/>
+                <Text fill="white" styleClass="shkronja" layoutX="708" layoutY="430.0" strokeType="OUTSIDE"
+                      strokeWidth="0.0" text="9"/>
+                <Text fill="white" styleClass="shkronja" layoutX="757" layoutY="430.0" strokeType="OUTSIDE"
+                      strokeWidth="0.0" text="10"/>
+                <Text fill="white" styleClass="shkronja" layoutX="808" layoutY="430.0" strokeType="OUTSIDE"
+                      strokeWidth="0.0" text="11"/>
+                <Text fill="white" styleClass="shkronja" layoutX="859" layoutY="430.0" strokeType="OUTSIDE"
+                      strokeWidth="0.0" text="12"/>
+                <Text fill="white" styleClass="shkronja" layoutX="906" layoutY="430.0" strokeType="OUTSIDE"
+                      strokeWidth="0.0" text="13"/>
+
+                <Label layoutX="585.0"
+                       style="-fx-fill: white; -fx-spacing: 10; -fx-text-fill: white; -fx-font-size: 18;"
+                       AnchorPane.topAnchor="19"
+                       text="Legjend">
+
+                </Label>
+
+
+            </children>
+        </AnchorPane>
+        <AnchorPane prefHeight="37.0" prefWidth="1200.0">
+            <children>
+                <MenuBar prefHeight="35.0" prefWidth="1200.0"
+                         style="-fx-min-width: 100%; -fx-background-color: transparent;"/>
+                <Text fx:id="rezervimiFilmitTitle" fill="WHITE" layoutX="18.0" layoutY="22.0" strokeType="OUTSIDE" strokeWidth="0.0"
+                      style="-fx-font-style: italic; -fx-font-weight: bold; -fx-font-size: 17;"
+                      text="Rezervimi i filmave"/>
+
+                <Button fx:id="logout" mnemonicParsing="false" onAction="#logOut" AnchorPane.rightAnchor="10"
+                        AnchorPane.topAnchor="10" prefHeight="18.0" prefWidth="168.0"
+                        styleClass="button"
+                        stylesheets="@../css/mainpanel.css"
+                        text="Log Out"
+                        textAlignment="JUSTIFY">
+                    <font>
+                        <Font name="System Bold" size="17.0"/>
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="HAND"/>
+                    </cursor>
+                </Button>
+
+            </children>
+        </AnchorPane>
+        <AnchorPane layoutY="34.0" prefHeight="378.0" prefWidth="157.0">
+            <children>
+
+                <Text layoutX="71.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date"
+                      style="-fx-fill: white"/>
+                <DatePicker fx:id="datePicker" layoutX="15.0" layoutY="87.0" onAction="#comboxDataSelected"
+                            prefHeight="27.0" prefWidth="163.0"/>
+                <Text fx:id="filmiText" layoutX="72.0" layoutY="139.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Filmi"
+                      style="-fx-fill: white"/>
+                <ComboBox  styleClass="comboBox" fx:id="filmDropDownList" layoutX="15.0" layoutY="147.0"
+                          onAction="#comboBoxFilmsSelected"
+                          prefHeight="28.0" prefWidth="163.0"/>
+                <Text layoutX="71.0" layoutY="202.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Koha"
+                      style="-fx-fill: white"/>
+                <ComboBox styleClass="comboBox" fx:id="timeDropDownList" layoutX="15.0" layoutY="211.0"
+                          prefHeight="28.0" prefWidth="163.0"/>
+                <Button styleClass="button" layoutX="18.0" layoutY="309.0" mnemonicParsing="false"
+                        onMouseClicked="#bookSeat"
+                        prefHeight="30.0" prefWidth="163.0" text="Reservo karrige"
+                        textFill="WHITE">
+                    <graphic>
+                        <MaterialIconView fill="WHITE" glyphName="EVENT_SEAT" size="20"/>
+                    </graphic>
+                </Button>
+                <Button fx:id="dashboard" styleClass="button" layoutY="500.0" layoutX="18.0"
+                        mnemonicParsing="false" onMouseClicked="#shkoTekDashboardi"
+                        prefHeight="30.0" prefWidth="163.0"
+                        text="Dashboard"
+                        textFill="WHITE">
+                </Button>
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>
