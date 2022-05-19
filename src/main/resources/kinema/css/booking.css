@@ -1,0 +1,105 @@
+
+#anchorPaneBookingId {
+    -fx-background-image: url('../images/kino-wallpaper-fantasy.jpg');
+    -fx-background-size: 100% 100%;
+    -fx-font-size: 16px;
+    -fx-text-fill: white;
+    -fx-fill: white;
+}
+
+
+.date-picker {
+    -fx-text-fill: white;
+    -fx-background-color: -fx-shadow-highlight-color, -fx-outer-border, -fx-inner-border, black;
+    -fx-background-radius: 8, 7, 6;
+    -fx-effect: dropshadow(gaussian, #99efff, 10, 0.0, 0, 1);
+}
+
+.date-picker > .text-field {
+    -fx-text-fill: white;
+    -fx-background-color: black;
+}
+
+.date-picker:focused > .text-field,
+.date-picker > .text-field:focused {
+    -fx-text-fill: white;
+    -fx-background-color: black;
+}
+
+.comboBox .combo-box-popup .list-view, .combo-box .combo-box-popup .list-cell {
+    -fx-text-fill: white;
+    -fx-background-color: black;
+    -fx-background-radius: 8, 7, 6;
+    -fx-effect: dropshadow(gaussian, #99efff, 10, 0.0, 0, 1);
+}
+
+.comboBox {
+    -fx-text-fill: white;
+    -fx-background-color: -fx-shadow-highlight-color, -fx-outer-border, -fx-inner-border, black;
+    -fx-background-radius: 8, 7, 6;
+    -fx-effect: dropshadow(gaussian, #99efff, 10, 0.0, 0, 1);
+    -fx-content-display: Center;
+    -fx-fill: white;
+}
+
+.comboBox > .text-field {
+    -fx-text-fill: white;
+    -fx-background-color: black;
+    -fx-fill: white;
+}
+
+
+.comboBox:focused > .text-field,
+.comboBox > .text-field:focused {
+    -fx-text-fill: white;
+    -fx-background-color: black;
+    -fx-fill: white;
+}
+
+.comboBox:selected {
+    -fx-text-fill: white;
+    -fx-fill: white;
+    -fx-background-color: black;
+}
+
+.comboBox > .list-cell {
+    -fx-text-fill: white;
+    -fx-fill: white;
+    -fx-background-color: black;
+}
+
+.button {
+    -fx-text-fill: white;
+    -fx-background-color: -fx-shadow-highlight-color, -fx-outer-border, -fx-inner-border, black;
+    -fx-background-radius: 8, 7, 6;
+    -fx-background-insets: 0, 1, 2;
+    -fx-effect: dropshadow(gaussian, #99efff, 10, 0.0, 0, 1);
+    -fx-spacing: 15;
+    -fx-font-style: italic;
+}
+
+
+.shkronja {
+    -fx-font-size: 24px;
+    -fx-text-fill: white;
+    -fx-background-color: -fx-shadow-highlight-color, -fx-outer-border, -fx-inner-border, black;
+    -fx-background-radius: 8, 7, 6;
+    -fx-background-insets: 0, 1, 2;
+    -fx-effect: dropshadow(gaussian, #99efff, 10, 0.0, 0, 1);
+    -fx-spacing: 15;
+    -fx-font-style: italic;
+}
+
+.informiUlse {
+    -fx-font-size: 17px;
+    -fx-text-fill: white;
+    -fx-spacing: 15;
+    -fx-font-style: italic;
+}
+
+.seat-icon {
+    -fx-fill: green;
+    -fx-font-family: 'Material Icons';
+    -fx-font-size: 50.0;
+    -fx-effect: dropshadow(gaussian, green, 10, 0.0, 0, 1);
+}
