@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import java.net.URL?>
+<AnchorPane fx:id="anchorPaneRezervimet" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+            minWidth="-Infinity" prefHeight="600.0"
+            prefWidth="1200.0" xmlns="http://javafx.com/javafx/11.0.1"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="kinema.fiek.ShikoniRezerviminController">
+    <stylesheets>
+        <URL value="@../css/tableView.css"/>
+    </stylesheets>
+    <children>
+        <TableView style="-fx-background-color: transparent" fx:id="tableView" layoutX="35.0" layoutY="28.0"
+                   prefHeight="550.0" prefWidth="1100.0">
+            <columns>
+                <TableColumn fx:id="userName"  prefWidth="100.0" text="Emri "/>
+                <TableColumn fx:id="numriKinos" prefWidth="150.0" text="Numir i kinos"/>
+                <TableColumn fx:id="kinoName" prefWidth="150.0" text="Emri i kinos"/>
+                <TableColumn fx:id="numriKarriges" prefWidth="150.0" text="Numri i karriges"/>
+                <TableColumn fx:id="dataRezervimit" prefWidth="250.0" text="Data e rezervimit"/>
+                <TableColumn fx:id="kohaFilmit" prefWidth="150.0" text="Koha e filmit"/>
+                <TableColumn fx:id="oraFilmit" prefWidth="150.0" text="Ora e filmit"/>
+            </columns>
+        </TableView>
+    </children>
+</AnchorPane>
