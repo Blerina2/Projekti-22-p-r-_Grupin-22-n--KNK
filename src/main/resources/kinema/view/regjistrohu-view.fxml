@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Text?>
+<?import java.net.URL?>
+<BorderPane fx:id="borderPaneRegjistrohu" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+            minWidth="-Infinity" prefHeight="600.0"
+            prefWidth="750.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="kinema.fiek.KontrolluesiRegjistrues">
+    <stylesheets>
+        <URL value="@../css/regjistrohu.css"/>
+    </stylesheets>
+    <center>
+        <AnchorPane prefHeight="400.0" prefWidth="300.0" BorderPane.alignment="CENTER">
+            <children>
+                <TextField fx:id="firstName" layoutX="259.0" layoutY="146.0" prefHeight="25.0" prefWidth="202.0"
+                           promptText="Emri"
+                           style="-fx-text-fill: white; -fx-background-color: transparent; -fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;"/>
+                <TextField fx:id="lastName" layoutX="259.0" layoutY="183.0" prefHeight="25.0" prefWidth="202.0"
+                           promptText="Mbiemri"
+                           style="-fx-text-fill: white; -fx-background-color: transparent; -fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;"/>
+                <TextField fx:id="email" layoutX="259.0" layoutY="217.0" prefHeight="25.0" prefWidth="202.0"
+                           promptText="Imail"
+                           style="-fx-text-fill: white; -fx-background-color: transparent; -fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;"/>
+                <TextField fx:id="username" layoutX="259.0" layoutY="253.0" prefHeight="25.0" prefWidth="202.0"
+                           promptText="Emri i perdoruesit"
+                           style="-fx-text-fill: white; -fx-background-color: transparent; -fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;"/>
+                <PasswordField fx:id="password" layoutX="259.0" layoutY="289.0" prefHeight="25.0" prefWidth="202.0"
+                               promptText="Fjalekalimi"
+                               style="-fx-text-fill: white; -fx-background-color: transparent; -fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;"/>
+                <PasswordField fx:id="confirmPassword" layoutX="259.0" layoutY="324.0" prefHeight="25.0"
+                               prefWidth="202.0" promptText="Konfirmo fjalekalimin"
+                               style="-fx-text-fill: white; -fx-background-color: transparent; -fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;"/>
+                <Button fx:id="registerButton" layoutX="312.0" layoutY="372.0" mnemonicParsing="false"
+                        onAction="#register" prefHeight="32.0" prefWidth="110.0"
+                        style="-fx-background-color: black; -fx-background-radius: 8px;" text="Regjistrojme"
+                        textFill="WHITE">
+                    <cursor>
+                        <Cursor fx:constant="HAND"/>
+                    </cursor>
+                </Button>
+                <Text fx:id="regjistruText" fill="white" layoutX="259.0" layoutY="428.0"
+                      onMouseClicked="#showLoginStage"
+                      strokeType="OUTSIDE" strokeWidth="0.0" text="Ju posedoni nje llogari? Atehere identifikohu!">
+                    <cursor>
+                        <Cursor fx:constant="HAND"/>
+                    </cursor>
+                </Text>
+            </children>
+            <effect>
+                <DropShadow color="#0fa" offsetX="5.0" offsetY="5.0"/>
+            </effect>
+        </AnchorPane>
+    </center>
+</BorderPane>
