@@ -1,0 +1,9 @@
+#borderPaneRegjistrohu {
+    -fx-background-image: url('../images/wallpaper-green-regjstrim.jpg');
+    -fx-background-size: 100% 100%;
+    -fx-font-size: 16px;
+}
+
+#regjistruText {
+    -fx-font-size: 10px;
+}
