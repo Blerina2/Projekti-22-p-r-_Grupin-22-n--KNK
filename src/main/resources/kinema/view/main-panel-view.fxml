@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import java.net.URL?>
+<BorderPane fx:id="borderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+            prefHeight="640.0" prefWidth="1350.0"
+            xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="kinema.fiek.PanelIKryesorController">
+    <stylesheets>
+        <URL value="@../css/dashboard.css"/>
+    </stylesheets>
+    <top>
+        <HBox prefHeight="39.0" prefWidth="180.0"
+              BorderPane.alignment="TOP_CENTER">
+            <children>
+                <Button fx:id="home" mnemonicParsing="false" onAction="#loadHomeView" prefHeight="18.0"
+                        prefWidth="173.0" style="-fx-text-fill: #f0f0f0; -fx-font-style: italic;" styleClass="bt"
+                        stylesheets="@../css/mainpanel.css"
+                        text="Home" textAlignment="JUSTIFY">
+                    <font>
+                        <Font name="System Bold" size="17.0"/>
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="HAND"/>
+                    </cursor>
+                </Button>
+                <Button fx:id="filmat" mnemonicParsing="false" onAction="#loadFilmatAktualView" prefHeight="18.0"
+                        prefWidth="168.0" style="-fx-text-fill: #f0f0f0; -fx-font-style: italic;" styleClass="bt"
+                        stylesheets="@../css/mainpanel.css"
+                        text="Filmat" textAlignment="JUSTIFY">
+                    <font>
+                        <Font name="System Bold" size="17.0"/>
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="HAND"/>
+                    </cursor>
+                </Button>
+                <Button fx:id="ShikoniRezervimin" mnemonicParsing="false" onAction="#loadShikoniRezerviminView"
+                        prefHeight="18.0"
+                        prefWidth="172.0" style="-fx-text-fill: #f0f0f0; -fx-font-style: italic;" styleClass="bt"
+                        stylesheets="@../css/mainpanel.css"
+                        text="Rezervimet" textAlignment="JUSTIFY">
+                    <font>
+                        <Font name="System Bold" size="17.0"/>
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="HAND"/>
+                    </cursor>
+                </Button>
+                <Button fx:id="rezervofilmin" mnemonicParsing="false" onAction="#loadRezervofilminView"
+                        prefHeight="18.0"
+                        prefWidth="175.0" style="-fx-text-fill: #f0f0f0; -fx-font-style: italic;" styleClass="bt"
+                        stylesheets="@../css/mainpanel.css"
+                        text="Rezervo filmin" textAlignment="JUSTIFY">
+                    <font>
+                        <Font name="System Bold" size="17.0"/>
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="HAND"/>
+                    </cursor>
+                </Button>
+                <Button fx:id="administrator" mnemonicParsing="false" onAction="#loadAdministratorView"
+                        prefHeight="18.0"
+                        prefWidth="170.0" style="-fx-text-fill: #f0f0f0; -fx-font-style: italic;" styleClass="bt"
+                        stylesheets="@../css/mainpanel.css"
+                        text="Administrator" textAlignment="JUSTIFY">
+                    <font>
+                        <Font name="System Bold" size="17.0"/>
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="HAND"/>
+                    </cursor>
+                </Button>
+                <Button fx:id="editoFilma" mnemonicParsing="false" onAction="#loadEditoFilmatView"
+                        prefHeight="18.0"
+                        prefWidth="168.0" style="-fx-text-fill: #f0f0f0; -fx-font-style: italic;" styleClass="bt"
+                        stylesheets="@../css/mainpanel.css"
+                        text="Edito filmat" textAlignment="JUSTIFY">
+                    <font>
+                        <Font name="System Bold" size="17.0"/>
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="HAND"/>
+                    </cursor>
+                </Button>
+                <Button fx:id="shtoAdminstrator" mnemonicParsing="false" onAction="#loadEditoFilmatView"
+                        prefHeight="18.0"
+                        prefWidth="185.0" style="-fx-text-fill: #f0f0f0; -fx-font-style: italic;" styleClass="bt"
+                        stylesheets="@../css/mainpanel.css"
+                        text="Shto Adminstrator" textAlignment="JUSTIFY">
+                    <font>
+                        <Font name="System Bold" size="17.0"/>
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="HAND"/>
+                    </cursor>
+                </Button>
+                <Button fx:id="addPurchase" mnemonicParsing="false" onAction="#loadHomeView" prefHeight="18.0"
+                        prefWidth="189.0" style="-fx-text-fill: #f0f0f0; -fx-font-style: italic;" styleClass="bt"
+                        stylesheets="@../css/mainpanel.css"
+                        textAlignment="JUSTIFY" visible="false">
+                    <VBox.margin>
+                        <Insets top="10.0"/>
+                    </VBox.margin>
+                    <font>
+                        <Font name="System Bold" size="12.0"/>
+                    </font>
+                </Button>
+                <Button fx:id="logout" mnemonicParsing="false" onAction="#close" prefHeight="18.0" prefWidth="168.0"
+                        style="-fx-text-fill: #f0f0f0; -fx-font-style: italic;" styleClass="bt"
+                        stylesheets="@../css/mainpanel.css"
+                        text="Log Out"
+                        textAlignment="JUSTIFY">
+                    <font>
+                        <Font name="System Bold" size="17.0"/>
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="HAND"/>
+                    </cursor>
+                </Button>
+            </children>
+        </HBox>
+    </top>
+    <center>
+        <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+            <children>
+                <HBox prefHeight="108.0" prefWidth="1190.0"/>
+                <HBox prefHeight="244.0" prefWidth="1190.0"/>
+                <HBox prefHeight="254.0" prefWidth="1190.0"/>
+            </children>
+        </VBox>
+    </center>
+</BorderPane>
